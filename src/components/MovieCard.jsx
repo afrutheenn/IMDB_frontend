@@ -83,8 +83,7 @@ const MovieCard = ({ movie, onDelete }) => {
           </Typography>
         </Box>
       </CardContent>
-      
-      {/* Only show actions if authenticated */}
+    
       {isAuthenticated && (
         <CardActions sx={{ justifyContent: 'space-between' }}>
           <IconButton

@@ -211,7 +211,6 @@ const MovieForm = ({ initialValues, onSubmit, isEdit = false }) => {
                 />
               </Grid>
 
-              {/* Poster and Producer Section */}
               <Grid item xs={12} md={6}>
                 <Typography variant="h6" gutterBottom sx={{ fontWeight: 'bold' }}>
                   Media & Production
@@ -322,7 +321,6 @@ const MovieForm = ({ initialValues, onSubmit, isEdit = false }) => {
                 )}
               </Grid>
 
-              {/* Actors Section */}
               <Grid item xs={12}>
                 <Divider sx={{ my: 2 }} />
                 <Typography variant="h6" gutterBottom sx={{ fontWeight: 'bold' }}>
@@ -425,8 +423,6 @@ const MovieForm = ({ initialValues, onSubmit, isEdit = false }) => {
                   </Paper>
                 )}
               </Grid>
-
-              {/* Submit Button */}
               <Grid item xs={12}>
                 <Button
                   type="submit"
